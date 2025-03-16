@@ -16,8 +16,8 @@ import {
 } from './helpers';
 
 class HttpsBackendAssetResolver extends AsyncAssetResolver {
-    #assetUrlBuilder: AssetUrlBuilder;
     #assetListUrlBuilder: AssetListUrlBuilder;
+    #assetUrlBuilder: AssetUrlBuilder;
 
     constructor({
         assetUrlBuilder,
@@ -28,6 +28,12 @@ class HttpsBackendAssetResolver extends AsyncAssetResolver {
         this.#assetListUrlBuilder = assetListUrlBuilder;
     }
 
+    list(type: ResolvableAssetType): Promise<string[]> {
+        return fetch(this.#assetListUrlBuilder(type).toString())
+            .then(response => response.json())
+            .then(json => json as string[]);
+    }
+    
     resolveAdventure(key: string): Promise<Adventure> {
         return fetch(
             this.#assetUrlBuilder(AssetType.adventures, key).toString(),
@@ -84,12 +90,6 @@ class HttpsBackendAssetResolver extends AsyncAssetResolver {
                     );
                 })
         );
-    }
-
-    list(type: ResolvableAssetType): Promise<string[]> {
-        return fetch(this.#assetListUrlBuilder(type).toString())
-            .then(response => response.json())
-            .then(json => json as string[]);
     }
 }
 
