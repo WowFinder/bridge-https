@@ -33,7 +33,7 @@ class HttpsBackendAssetResolver extends AsyncAssetResolver {
             .then(response => response.json())
             .then(json => json as string[]);
     }
-    
+
     resolveAdventure(key: string): Promise<Adventure> {
         return fetch(
             this.#assetUrlBuilder(AssetType.adventures, key).toString(),
