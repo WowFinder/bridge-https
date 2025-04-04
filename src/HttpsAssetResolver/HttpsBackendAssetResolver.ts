@@ -16,8 +16,8 @@ import {
 } from './helpers';
 
 class HttpsBackendAssetResolver extends AsyncAssetResolver {
-    #assetListUrlBuilder: AssetListUrlBuilder;
-    #assetUrlBuilder: AssetUrlBuilder;
+    readonly #assetListUrlBuilder: AssetListUrlBuilder;
+    readonly #assetUrlBuilder: AssetUrlBuilder;
 
     constructor({
         assetUrlBuilder,
