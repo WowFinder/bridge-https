@@ -1,7 +1,7 @@
 {
     "name": "@wowfinder/bridge-https",
     "type": "commonjs",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "Web-based bridge code to facilitate accessing back-end(s) via https",
     "repository": {
         "type": "git",
@@ -35,8 +35,8 @@
     },
     "dependencies": {
         "@wowfinder/asset-schemas": "^0.0.15",
-        "@wowfinder/model": "^0.0.14",
-        "@wowfinder/ts-enums": "^0.0.16",
+        "@wowfinder/model": "^0.0.15",
+        "@wowfinder/ts-enums": "^0.0.17",
         "@wowfinder/ts-utils": "^0.1.8",
         "globals": "^16.0.0"
     },
@@ -48,7 +48,7 @@
         "@typescript-eslint/eslint-plugin": "^8.29.0",
         "@typescript-eslint/parser": "^8.29.0",
         "@typescript-eslint/utils": "^8.29.0",
-        "eslint": "^9.23.0",
+        "eslint": "^9.24.0",
         "eslint-config-prettier": "^10.1.1",
         "eslint-config-standard": "^17.1.0",
         "eslint-plugin-deprecation": "^3.0.0",
@@ -67,7 +67,7 @@
         "skott": "^0.35.4",
         "ts-jest": "^29.3.1",
         "tsd": "^0.31.2",
-        "typescript": "^5.8.2"
+        "typescript": "^5.8.3"
     },
     "packageManager": "yarn@4.8.1"
 }
