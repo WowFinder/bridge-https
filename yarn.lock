@@ -1671,7 +1671,7 @@ __metadata:
     "@typescript-eslint/parser": "npm:^8.29.1"
     "@typescript-eslint/utils": "npm:^8.29.1"
     "@wowfinder/asset-schemas": "npm:^0.0.17"
-    "@wowfinder/model": "npm:^0.0.18"
+    "@wowfinder/model": "npm:^0.0.19"
     "@wowfinder/ts-enums": "npm:^0.0.19"
     "@wowfinder/ts-utils": "npm:^0.1.10"
     eslint: "npm:^9.24.0"
@@ -1698,15 +1698,15 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@wowfinder/model@npm:^0.0.18":
-  version: 0.0.18
-  resolution: "@wowfinder/model@npm:0.0.18"
+"@wowfinder/model@npm:^0.0.19":
+  version: 0.0.19
+  resolution: "@wowfinder/model@npm:0.0.19"
   dependencies:
     "@wowfinder/asset-schemas": "npm:^0.0.17"
     "@wowfinder/ts-enums": "npm:^0.0.19"
     "@wowfinder/ts-utils": "npm:^0.1.10"
     globals: "npm:^16.0.0"
-  checksum: 10c0/1e7399c9bb379a23a9d86c16b7526c218c386f3e408b734d2533c020515d08ed961203235a56c35a47ae94db1c182986382e83979682b8a65a008c0b7b75bf33
+  checksum: 10c0/7a20d827d5e50b407e71e4f0865f7675df206b71618d5ce74e62fd9acafa86b5dcd44cea8716310ca3d11b15d343b497fbaed45336f4d35f214a2034d3797d7d
   languageName: node
   linkType: hard
 
