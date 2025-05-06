@@ -1677,6 +1677,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@wowfinder/asset-schemas@npm:^0.0.22":
+  version: 0.0.22
+  resolution: "@wowfinder/asset-schemas@npm:0.0.22"
+  dependencies:
+    "@wowfinder/ts-enums": "npm:^0.0.27"
+    ajv: "npm:^8.17.1"
+    globals: "npm:^16.0.0"
+  checksum: 10c0/b3027d343d69731c142261265716ce9a22a5d56192d96f565071b22e0d1bcd2ee0642ba833177ef87d6d3852c6d45af9484c44bbe1b017b1f3bc3a394dfb6f0e
+  languageName: node
+  linkType: hard
+
 "@wowfinder/bridge-https@workspace:.":
   version: 0.0.0-use.local
   resolution: "@wowfinder/bridge-https@workspace:."
@@ -1689,7 +1700,7 @@ __metadata:
     "@typescript-eslint/parser": "npm:^8.31.1"
     "@typescript-eslint/utils": "npm:^8.31.1"
     "@wowfinder/asset-schemas": "npm:^0.0.21"
-    "@wowfinder/model": "npm:^0.0.24"
+    "@wowfinder/model": "npm:^0.0.27"
     "@wowfinder/ts-enums": "npm:^0.0.24"
     "@wowfinder/ts-utils": "npm:^0.1.14"
     eslint: "npm:^9.26.0"
@@ -1716,15 +1727,15 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@wowfinder/model@npm:^0.0.24":
-  version: 0.0.24
-  resolution: "@wowfinder/model@npm:0.0.24"
+"@wowfinder/model@npm:^0.0.27":
+  version: 0.0.27
+  resolution: "@wowfinder/model@npm:0.0.27"
   dependencies:
-    "@wowfinder/asset-schemas": "npm:^0.0.21"
-    "@wowfinder/ts-enums": "npm:^0.0.24"
-    "@wowfinder/ts-utils": "npm:^0.1.14"
+    "@wowfinder/asset-schemas": "npm:^0.0.22"
+    "@wowfinder/ts-enums": "npm:^0.0.27"
+    "@wowfinder/ts-utils": "npm:^0.1.17"
     globals: "npm:^16.0.0"
-  checksum: 10c0/d3d7ba799157986c8a89d0671842730e1637e9716cead364fb92ca15a857ecec46124145c46ba907f4ed1774bfd96223e086f7d553d1f16be75fc6ddadcd4f40
+  checksum: 10c0/985d78a66820eef3152cc959fab8ad4ae39e8b63bbf91163ffd552532f1b81ce77e61b413a3e988b55f3b55db7f1e54a1851ca35c6f97a394a5b787e5719e164
   languageName: node
   linkType: hard
 
@@ -1737,12 +1748,30 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@wowfinder/ts-enums@npm:^0.0.27":
+  version: 0.0.27
+  resolution: "@wowfinder/ts-enums@npm:0.0.27"
+  dependencies:
+    globals: "npm:^16.0.0"
+  checksum: 10c0/6a0b062fd67ff1e3571ce5e0545b810a63b12e0e2faa370b7ef31389ad8e7140b083179a4ef3fca1e6551a7070cf8ae79d4adc433ea5b6b17c3f3e7303de4f8e
+  languageName: node
+  linkType: hard
+
 "@wowfinder/ts-utils@npm:^0.1.14":
   version: 0.1.14
   resolution: "@wowfinder/ts-utils@npm:0.1.14"
   dependencies:
     globals: "npm:^16.0.0"
   checksum: 10c0/44e1c722e3a73c3e216cd74c87d1cfd282294493857e8f966eafae6165a46202cf0b25eed7873d40a93c3fa50143e54ca343e255e222046eef016ab9e022d82e
+  languageName: node
+  linkType: hard
+
+"@wowfinder/ts-utils@npm:^0.1.17":
+  version: 0.1.17
+  resolution: "@wowfinder/ts-utils@npm:0.1.17"
+  dependencies:
+    globals: "npm:^16.0.0"
+  checksum: 10c0/9ee9d3efda1ee344693357dfa6264e2c1296f3508eaf98e89c0ee90934ad8f16d0c62f32d7cfa80278b4bcd541c02b89f0f504badb35152e90293d77260c515b
   languageName: node
   linkType: hard
 
